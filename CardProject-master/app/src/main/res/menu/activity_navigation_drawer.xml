@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_faturas"
+            android:icon="@drawable/ic_fatura"
+            android:title="Faturas" />
+        <item
+            android:id="@+id/nav_perdaRoubo"
+            android:icon="@drawable/ic_perda"
+            android:title="Perda ou Roubo" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_sair"
+            android:title="Sair" />
+    </group>
+
+
+</menu>

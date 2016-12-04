@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lucas.cardproject.MainActivity">
+    <item
+        android:id="@+id/actLancamentos"
+        android:orderInCategory="100"
+        android:title="@string/actLancamentos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actPerdiMeuCartao"
+        android:orderInCategory="100"
+        android:title="@string/actPerdiMeuCartao"
+        app:showAsAction="never" />
+</menu>

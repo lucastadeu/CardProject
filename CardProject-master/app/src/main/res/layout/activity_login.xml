@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tela_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    tools:context="com.example.lucas.cardproject.Login.LoginActivity"
+    android:background="@color/azulBackgroundCartao">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etSenhaCartao"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        android:layout_above="@+id/btLoginOk"
+        android:layout_alignStart="@+id/etCPFCliente"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/styles_edit_text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName|numberDecimal"
+        android:ems="10"
+        android:id="@+id/etCPFCliente"
+        android:hint="CPF (sem pontos)"
+        android:layout_above="@+id/etSenhaCartao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/styles_edit_text"/>
+
+    <Button
+        android:text="@string/btOkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btLoginOk"
+        style="@android:style/Widget.Material.Button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
