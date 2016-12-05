@@ -80,7 +80,7 @@ public class NavigationActivity extends AppCompatActivity
 
         Intent intent;
         if (id == R.id.nav_faturas) {
-            intent =  new Intent (this, MainActivity.class);
+            intent =  new Intent (this, cardFaturaActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_perdaRoubo) {
             intent = new Intent(this, CartaoActivity.class);

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dc88341cbaaac9d67a982378e5df68d8c81289ed">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0-alpha2_59ac572c42c9f8ca044b5bbda68cb5129ff01b56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0-alpha2_f4b65dd177ef8c186059ca5d425c15a5e2751a46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\jars\libs\internal_impl-24.0.0-alpha2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0-alpha2_e317afc2843175a3bce87572eca0127e784728f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f0ed0658fb3b8b1810f9f27a7cff0f961696862">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_237a7d078a6d8f9747b90b69dba5de974e23cdb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="32ab8bede8cd600f25a5bb3fe15068c81c8910dc">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0-alpha2_c42eb1622f193212cd9d87b5f8e40327ce01ca80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha2\support-annotations-24.0.0-alpha2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0-alpha2_636ded0804131e8104bcf2459ab46e11da9d2d3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta1\constraint-layout-solver-1.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_ccf57fffa28a2bf4057de4798f01f86718ca27d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d516dd3720fb74430657af8e7bf605dcd9dacc2e">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1254622852a085eaf45557d60f4635a75460fd89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.intuit.sdp\sdp-android\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b63d873d0f3394ace8b6a7d9aa194816c6253b4">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.intuit.sdp-sdp-android-1.0.3_2ccf4d9f6425081e0d84954e100959aa8b772d15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="661a632c3b434991d6364690cbe0f786371101cc">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0-alpha2_ad4d1d948044c8a3d3d243b2127dfb4f68a076c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f417d93e1f62fd4fb4a2c0f3a4a882dd0ca7843">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0-alpha2_f5c8b4d87d32a877f901a448a204d25f31ceb0e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf5aa3b026d5b5fd9f4ab5e8cf13499b9e016dfb">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-alpha2_44572879fa04f2ee4afd2f87977139f3f6b62510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="C:\Users\lucas\Documents\CardProject-master\CardProject-master\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_03eafe2dfa48d2ee12da7b56f7ebe179296fbbbf\classes.dex" />
+    </item>
+
+</items>

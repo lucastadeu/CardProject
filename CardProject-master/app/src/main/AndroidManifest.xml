@@ -32,7 +32,9 @@
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CartaoActivity" />
-        <activity android:name=".FaturaInfoActivity"></activity>
+        <activity android:name=".FaturaInfoActivity" />
+        <activity android:name=".cardFaturaActivity" />
+        <activity android:name=".LancamentoActivity"></activity>
     </application>
 
 </manifest>
