@@ -86,9 +86,10 @@ public class NavigationActivity extends AppCompatActivity
             intent = new Intent(this, CartaoActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            //se eu nao pensar em nada é só tirar
         } else if (id == R.id.nav_sair) {
             //tem que arrumar esse logout
+
             /*
             Intent logoutintent = new Intent(this, LoginActivity.class);
             startActivity(logoutintent);

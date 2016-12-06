@@ -10,4 +10,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lucas.cardproject.FaturaInfoActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valor"
+        android:id="@+id/fatura_info_valor"
+        android:textSize="@dimen/_15sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="estabelecimento"
+        android:id="@+id/fatura_info_lugar"
+        android:layout_below="@+id/fatura_info_valor"
+        android:textSize="@dimen/_15sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:id="@+id/fatura_info_data"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/_15sdp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/fatura_info_imagem"
+        android:layout_below="@+id/fatura_info_lugar"/>
+
+
 </RelativeLayout>

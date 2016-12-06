@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CartaoActivity extends AppCompatActivity {
-
+//esse cartao activity é pra parte do perda ou roubo
     private List<Cartao> cartoes = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
