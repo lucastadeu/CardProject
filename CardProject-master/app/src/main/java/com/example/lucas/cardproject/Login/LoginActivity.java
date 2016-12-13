@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
                 final String numCartaoStr = String.valueOf(cpfClient.getText().toString());
                 final String senhaCartaoStr = String.valueOf((senhaCartao.getText().toString()));
 
-                startActivity(intent);
+                //startActivity(intent);
 
                 if(numCartaoStr.matches("") && senhaCartaoStr.matches("")) //VERIFICAR O QUE FAZ ESSE MATCHES
                 {
@@ -118,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
                 HttpClient httpclient = new DefaultHttpClient();
 
                 //httppost = new HttpPost("http://192.168.56.1:8080/ERPServlet/MyServlet");
-                httppost = new HttpPost("http://203.199.134.131:8080/ERPServlet/MyServlet");
+                httppost = new HttpPost("http://localhost:8080/ERPServlet/MyServlet");
 
                 httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
