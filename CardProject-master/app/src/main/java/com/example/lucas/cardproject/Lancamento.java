@@ -1,10 +1,12 @@
 package com.example.lucas.cardproject;
 
+import java.io.Serializable;
+
 /**
  * Created by tawan on 04/12/2016.
  */
 
-public class Lancamento {
+public class Lancamento implements Serializable{
 
     public String getLugar() {
         return lugar;

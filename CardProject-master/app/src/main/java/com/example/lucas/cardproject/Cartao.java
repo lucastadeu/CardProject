@@ -1,10 +1,12 @@
 package com.example.lucas.cardproject;
 
+import java.io.Serializable;
+
 /**
  * Created by tawan on 03/12/2016.
  */
 
-public class Cartao {
+public class Cartao implements Serializable {
     private String nome;
 
     public String getNumero() {
