@@ -58,7 +58,7 @@ public class TabFragmentB extends Fragment {
 
                     else
                     {
-                        //Do something; mas no caso DESSE projeto isso vai dar pau ou dá pra rodar de boa? coloca mais dados. q eu saiba ela cria um scroll proprio
+
                     }
                 }
             }

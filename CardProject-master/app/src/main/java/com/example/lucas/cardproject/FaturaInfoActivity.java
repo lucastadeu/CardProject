@@ -20,7 +20,7 @@ public class FaturaInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fatura_info);
-        final Lancamento lancamento = (Lancamento) getIntent().getSerializableExtra(EXTRA_LANCAMENTO);
+        //final Lancamento lancamento = (Lancamento) getIntent().getSerializableExtra(EXTRA_LANCAMENTO);
         //aqui eu peguei a fatura q ele selecionou pra ver a info, só preencher os dados da tela com essa fatura
     }
 }

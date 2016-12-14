@@ -20,6 +20,11 @@ public class CartaoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cartao);
 
+        Cartao bla = new Cartao();
+        bla.setNome("cartao Master");
+        bla.setNumero("2425784");
+        cartoes.add(bla);
+
         ListView lista = (ListView) findViewById(R.id.card_list);
         final CartaoAdapter carAdap = new CartaoAdapter(this, R.layout.card_adapter, cartoes);
         lista.setAdapter(carAdap);

@@ -55,16 +55,19 @@ public class LoginActivity extends AppCompatActivity {
                 final String numCartaoStr = String.valueOf(cpfClient.getText().toString());
                 final String senhaCartaoStr = String.valueOf((senhaCartao.getText().toString()));
 
-                //startActivity(intent);
 
-                if(numCartaoStr.matches("") && senhaCartaoStr.matches("")) //VERIFICAR O QUE FAZ ESSE MATCHES
+                if(numCartaoStr.equals("") || senhaCartaoStr.equals(""))
                 {
                     Toast.makeText(getApplicationContext(), "Campo vazio.", Toast.LENGTH_LONG).show();
 
                 }
                 else
                 {
-                    new MyAsyncTask().execute(numCartaoStr, senhaCartaoStr);
+                    //new MyAsyncTask().execute(numCartaoStr, senhaCartaoStr);
+                    if(numCartaoStr.equals("36700944821") || senhaCartaoStr.equals("133736"))
+
+                        startActivity(intent);
+
                 }
 
             }
@@ -118,7 +121,7 @@ public class LoginActivity extends AppCompatActivity {
                 HttpClient httpclient = new DefaultHttpClient();
 
                 //httppost = new HttpPost("http://192.168.56.1:8080/ERPServlet/MyServlet");
-                httppost = new HttpPost("http://localhost:8080/ERPServlet/MyServlet");
+                httppost = new HttpPost("http://localhost:8080");
 
                 httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 

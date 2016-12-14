@@ -1,13 +1,12 @@
 package com.example.lucas.cardproject;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,10 +20,14 @@ public class LancamentoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lancamento);
 
-        final Cartao cartao = (Cartao) getIntent().getSerializableExtra(EXTRA_CARTAO);
+        //final Cartao cartao = (Cartao) getIntent().getSerializableExtra(EXTRA_CARTAO);
         //aqui eu peguei o cartao selecionado, ai é só preencher a lista com a fatura desse cartao
 
-
+        Lancamento bla = new Lancamento();
+        bla.setData("26/01/2016");
+        bla.setLugar("Outback campinas");
+        bla.setValor("R$3000");
+        lancamentos.add(bla);
 
 
         ListView lista = (ListView) findViewById(R.id.lista_fatura);
@@ -37,7 +40,7 @@ public class LancamentoActivity extends AppCompatActivity {
                 //vai chamar o fatura info
 
                 Intent intent = new Intent(LancamentoActivity.this, FaturaInfoActivity.class);
-                intent.putExtra(FaturaInfoActivity.EXTRA_LANCAMENTO, (Serializable) lancamentos.get(position));
+                //intent.putExtra(FaturaInfoActivity.EXTRA_LANCAMENTO, (Serializable) lancamentos.get(position));
                 startActivity(intent);
             }
         });

@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="8d235079e18776fa4f8a2eea8afca609237dad49">
+        sha1="97f60b100bebebd56df54b12b39d8b5da4f5f7b4">
         <dex dex="C:\Users\lucas\AndroidStudioProjects\cartao carai\CardProject\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_884fe468df55c4539e22d146c81ab7ed5dbab731\classes.dex" />
     </item>
     <item
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="7cf6bbab87dc46f9e5662d40fa44eaccbf1dbab5">
+        sha1="2edbfac3940ff40759dd670adee60fcf2aeed712">
         <dex dex="C:\Users\lucas\AndroidStudioProjects\cartao carai\CardProject\CardProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_30468d63169f8fe77fcc16bc9be70266382ee742\classes.dex" />
     </item>
     <item
